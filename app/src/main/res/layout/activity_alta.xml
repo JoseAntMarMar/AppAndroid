@@ -22,8 +22,8 @@
 
     <Button
         android:id="@+id/buttonAceptar"
-        android:layout_width="113dp"
-        android:layout_height="112dp"
+        android:layout_width="122dp"
+        android:layout_height="121dp"
         android:backgroundTint="@color/black"
         android:text="ACEPTAR"
         android:textColor="#5fcc21"
@@ -34,7 +34,6 @@
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline11"
         app:layout_constraintVertical_bias="0.0" />
-
 
     <Button
         android:id="@+id/buttonCancelar"
@@ -49,7 +48,7 @@
         app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="@+id/guideline11"
-        app:layout_constraintVertical_bias="0.622" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/nombre"
@@ -58,7 +57,7 @@
         android:background="@drawable/edit_text_background"
         android:ems="10"
         android:inputType="text"
-        android:text="Nombre"
+        android:text="Manolo"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
@@ -75,13 +74,15 @@
         android:ems="10"
         android:inputType="text"
         android:maxLines="2"
-        android:text="Fecha"
+        android:text="22-5-2003"
         android:textColor="#ffffff"
-
         app:layout_constraintBottom_toTopOf="@+id/guideline10"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+
+
 
     <EditText
         android:id="@+id/mail"
@@ -91,7 +92,7 @@
         android:ems="10"
         android:inputType="text"
         android:maxLines="2"
-        android:text="E-mail"
+        android:text="mimail@gmail.com"
         android:textColor="#ffffff"
 
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
